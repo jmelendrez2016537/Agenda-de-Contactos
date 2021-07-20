@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 85px;
+}
+a{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(6, 126, 238);
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.login{
+    background-color: floralwhite;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 15px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.login h2{
+    color: midnightblue;
+    font-size: 50px;
+}
+ .login label{
+     color: black;
+     font-size: 25px;
+ }
+ .login input[type="text"]{
+     padding: 10px;
+     width: 150px;
+     height: 20px;
+     cursor: pointer;
+ }
+.login a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(6, 126, 238);
+    color: black;
+}
+
+.contactos{
+    text-align: center;
+}
+.contactos h2{
+    text-align: center;
+    font-size: 40px;
+    color: steelblue;
+}
+.contactos a{
+    background-color: initial;
+}
+.tabla{
+    text-align: center;
+}
+.tabla th{
+    font-size: 40px;
+    color:darkcyan;
+}
+.tabla td{
+    font-size: 35px;
+    color:darkseagreen;
+}
+.tabla table{
+    border: 5px solid black
+
+}
